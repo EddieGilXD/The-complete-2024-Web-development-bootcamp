@@ -7,12 +7,40 @@ body {
   min-height: 95vh;
 }
 .main {
-  flex: 1;
+  flex: 1;  
 }
 
 h1 {
   font-size: 5rem;
+  display: block;
 }
+
+.left {
+  display: inline-block;
+}
+
+.left img{
+  height: auto;
+  width: 300px;  
+  display: inline-block;
+}
+
+.left .card-title,
+.card-text {
+  width: 800px;  
+  
+}
+
+.right {
+  display: inline-block;
+}
+
+.right img{
+  float: right;
+  height: auto;
+  width: 300px;
+}
+
 
 footer {
   text-align: right;
