@@ -13,33 +13,54 @@ body {
 h1 {
   font-size: 5rem;
   display: block;
+  max-width: 800px;
+}
+
+h2 {
+  margin: 0%;
 }
 
 .left {
-  display: inline-block;
+  float: left;
+  height: auto;
+  width: 49.5%;
 }
 
 .left img{
   height: auto;
   width: 300px;  
-  display: inline-block;
+  float: left;
+  margin-right: 30px;
 }
 
 .left .card-title,
 .card-text {
-  width: 800px;  
-  
-}
-
-.right {
+  width: 500px;
   display: inline-block;
 }
 
-.right img{
+.right {
   float: right;
+  width: 49.5%;
+  
+
+}
+
+.right img{  
   height: auto;
   width: 300px;
+  float: left;
+  margin-right: 30px;
 }
+
+.right .card-title,
+p {
+  height: auto;
+  width: 500px;  
+  display: inline-block;
+}
+
+
 
 
 footer {
