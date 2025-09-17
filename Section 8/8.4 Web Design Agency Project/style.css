@@ -28,7 +28,7 @@ h2 {
 
 .left img{
   height: auto;
-  width: 300px;  
+  max-width: 300px;
   float: left;
   margin-right: 30px;
 }
@@ -60,11 +60,18 @@ p {
   display: inline-block;
 }
 
-
+.creativeColor {
+  color: #191970;
+}
 
 
 footer {
   text-align: right;
-  color: midnightblue;
+  color: #191970;
 }
 
+@media (max-width: 700px) {
+  body{
+    background-color: green;
+  }
+}
