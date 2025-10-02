@@ -31,6 +31,7 @@ h2 {
   max-width: 300px;
   float: left;
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .left .card-title,
@@ -51,6 +52,7 @@ h2 {
   width: 300px;
   float: left;
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .right .card-title,
@@ -70,9 +72,8 @@ footer {
   color: #191970;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1019px) {
   body{
-    background-color: green;
     display:flex;
   }
   
