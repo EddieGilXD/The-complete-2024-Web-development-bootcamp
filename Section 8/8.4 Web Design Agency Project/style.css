@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 5rem;  
 }
 
 footer {
@@ -19,5 +19,15 @@ footer {
   color: midnightblue;
 }
 
+span {
+  color: midnightblue;
+}
 
+.tile-image {
+  width: auto;
+  height: 200px;
+}
 
+.card {
+  width: 45%;
+}
