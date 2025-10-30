@@ -42,3 +42,7 @@ span {
 .right {
   float: right;
 }
+
+@media (max-width: 600px) {
+  
+}
