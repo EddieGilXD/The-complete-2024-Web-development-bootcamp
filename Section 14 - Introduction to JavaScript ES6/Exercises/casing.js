@@ -14,13 +14,13 @@
 // Exercise 3 and 4 
 
 
-let nombre = prompt("Ingresa tu primer nombre");
-let firstLetter = nombre.slice(0,1); 
-firstLetter = firstLetter.toUpperCase();
-console.log(firstLetter);
+// let nombre = prompt("Ingresa tu primer nombre");
+// let firstLetter = nombre.slice(0,1); 
+// firstLetter = firstLetter.toUpperCase();
+// console.log(firstLetter);
 
-let restWord = nombre.slice(1);
-restWord = restWord.toLowerCase();
-console.log(restWord);
+// let restWord = nombre.slice(1);
+// restWord = restWord.toLowerCase();
+// console.log(restWord);
 
-console.log(firstLetter+restWord);
+// console.log(firstLetter+restWord);
